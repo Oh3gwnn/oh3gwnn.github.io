@@ -41,7 +41,7 @@ tf.dtypes.DType
 
 기본 텐서를 알아보자.
 
- **`"스칼라(Scalar)"` or `"순위-0(rank-0)"` Tensor**
+ **"스칼라(Scalar)" or "순위-0(rank-0)" Tensor**
 
  * 스칼라는 단일 값을 포함하며 "축"은 없다.
 
@@ -55,7 +55,7 @@ print(rank_0_tensor)
 tf.Tensor(4, shape=(), dtype=int32)
 ```
 
-**`"벡터(Vector)"` or `"순위-1(rank-1)"` Tensor**
+**"벡터(Vector)" or "순위-1(rank-1)" Tensor**
 
 * 벡터 텐서는 값의 목록과 같다.
 * 벡터에는 하나의 축이 있다.
@@ -70,7 +70,7 @@ print(rank_1_tensor)
 tf.Tensor([2. 3. 4.], shape=(3,), dtype=float32)
 ```
 
-**`"행렬(matrix)"` or `"순위-2(rank-2)"` Tensor**
+**"행렬(matrix)" or "순위-2(rank-2)" Tensor**
 * 행렬에는 두 개의 축이 있다.
 
 ```python
