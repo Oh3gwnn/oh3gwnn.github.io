@@ -2,11 +2,13 @@
 title:  "TensorFlow(텐서 플로우) 내용 정리"
 excerpt: "블로그 글 올리는 연습 겸 텐서 플로우 내용 정리"
 
+categories:
+ - AI
+tags:
+ - [python, machine learning]
+
 toc: true
 toc_sticky: true
-
-categories:
-  - AI
 
 date: 2021-10-02
 last_modified_at: 2021-10-02
