@@ -1,6 +1,6 @@
 ---
 title:  "TensorFlow(텐서 플로우) 내용 정리"
-excerpt: "블로그 글 올리는 연습 겸 텐서 플로우 내용 정리"
+excerpt: "텐서 플로우 내용 정리(https://www.tensorflow.org/)"
 
 categories:
  - AI
