@@ -1,5 +1,5 @@
 ---
-title:  "TensorFlow(텐서 플로우) 내용 정리"
+title:  "텐서 플로우(TensorFlow) 내용 정리"
 excerpt: "텐서 플로우 내용 정리(https://www.tensorflow.org/)"
 
 categories:
