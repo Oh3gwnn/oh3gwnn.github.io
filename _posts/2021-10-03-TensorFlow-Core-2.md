@@ -268,5 +268,6 @@ tf.Tensor(
 
 https://www.tensorflow.org/guide/
 
-
 또한, 참고하자면 한국어로 읽는 것보다 영어 원문으로 읽는 것이 확실히 정확하고 자세한 내용을 알 수 있다.
+
+이미지 출처: (https://www.tensorflow.org/guide/tensor/)
