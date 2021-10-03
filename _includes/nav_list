@@ -3,8 +3,11 @@
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "카테고리" }}</label>
-  <ul class="nav__items">
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="toggle_menu">
+      <li>
+            📙 카테고리
+      </li>
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
