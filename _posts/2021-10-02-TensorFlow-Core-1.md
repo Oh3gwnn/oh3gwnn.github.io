@@ -1,6 +1,6 @@
 ---
 title:  "텐서 플로우(TensorFlow) - 1"
-excerpt: "텐서 플로우 내용 정리(https://www.tensorflow.org/)"
+excerpt: "텐서 플로우 내용 정리(https://www.tensorflow.org/guide/tensor/)"
 
 categories:
  - AI
@@ -378,3 +378,5 @@ Skip the first row:
 ```
 
 여기까지 마지막으로 다축 인덱싱 알아 보았고, 내용이 많아 글을 나눠서 쓰려고 한다.
+
+이미지 출처: (https://www.tensorflow.org/guide/tensor/)
