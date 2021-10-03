@@ -14,7 +14,7 @@ date: 2021-10-02
 last_modified_at: 2021-10-03
 ---
 
-## **0. 텐서 소개**
+## **1. 텐서 소개**
 
 ```python
 #1 TensorFlow import
@@ -37,7 +37,7 @@ tf.dtypes.DType
 
 ---
 
-### **0.1. 즉시 실행`(Eager execution)`**
+### **1.1. 즉시 실행`(Eager execution)`**
 
 텐서플로의 즉시 실행`(Eager execution)`은 그래프를 생성하지 않고 함수를 바로 실행하는 명령형 프로그래밍 환경이다.
 
@@ -57,11 +57,11 @@ tf.dtypes.DType
 
 ---
 
-## **1. 기본 텐서**
+## **2. 기본 텐서**
 
 기본 텐서를 알아보자.
 
-### **1.1. "스칼라(Scalar)" or "순위-0(rank-0)" Tensor**
+### **2.1. "스칼라(Scalar)" or "순위-0(rank-0)" Tensor**
 
  * 스칼라는 단일 값을 포함하며 "축"은 없다.
 
@@ -75,7 +75,7 @@ print(rank_0_tensor)
 tf.Tensor(4, shape=(), dtype=int32)
 ```
 
-### **1.2. "벡터(Vector)" or "순위-1(rank-1)" Tensor**
+### **2.2. "벡터(Vector)" or "순위-1(rank-1)" Tensor**
 
 * 벡터 텐서는 값의 목록과 같다.
 * 벡터에는 하나의 축이 있다.
@@ -90,7 +90,7 @@ print(rank_1_tensor)
 tf.Tensor([2. 3. 4.], shape=(3,), dtype=float32)
 ```
 
-### **1.3. "행렬(matrix)" or "순위-2(rank-2)" Tensor**
+### **2.3. "행렬(matrix)" or "순위-2(rank-2)" Tensor**
 * 행렬에는 두 개의 축이 있다.
 
 ```python
@@ -132,7 +132,7 @@ tf.Tensor(
 ```
 
 ---
-### **1.4. 텐서(Tensor)의 시각화**
+## **3. 텐서(Tensor)의 시각화**
 
 축이 두 개 이상인 텐서를 시각화하는 방법에는 여러 가지가 있다.
 
@@ -225,7 +225,7 @@ tf.Tensor(
  [9.9987662e-01 1.2339458e-04]], shape=(2, 2), dtype=float32)
 ```
 ---
-## **2. 형상 정보(About shapes)**
+## **4. 형상 정보(About shapes)**
 
 텐서에는 형상이 있다.
 
@@ -274,9 +274,9 @@ Total number of elements (3*2*4*5):  120
 
 ---
 
-## **3. 인덱싱(Indexing)**
+## **5. 인덱싱(Indexing)**
 
-### **3.1. 단일 축 인덱싱**
+### **5.1. 단일 축 인덱싱(Single-axis indexing)**
 
 `TensorFlow`는 파이썬의 목록 또는 문자열 인덱싱과 마찬가지로 표준 파이썬 인덱싱 규칙과 `numpy` 인덱싱의 기본 규칙을 따른다.
 `
@@ -327,9 +327,9 @@ Every other item: [ 0  1  3  8 21]
 Reversed: [34 21 13  8  5  3  2  1  1  0]
  ```
 
- ### **3.2. 다축 인덱싱**
+### **5.2. 다축 인덱싱(Multi-axis indexing)**
 
- 더 높은 순위의 텐서는 여러 인덱스를 전달하여 인덱싱된다.
+더 높은 순위의 텐서는 여러 인덱스를 전달하여 인덱싱된다.
 
 단일 축의 경우에서와 정확히 같은 규칙이 각 축에 독립적으로 적용됨.
 

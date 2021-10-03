@@ -14,7 +14,7 @@ date: 2021-10-03
 last_modified_at: 2021-10-03
 ---
 
-## **4. 형상 조작(Manipulating Shapes)**
+## **1. 형상 조작(Manipulating Shapes)**
 
 텐서의 형상을 바꾸는 것은 매우 유용하다.
 
@@ -74,7 +74,7 @@ tf.Tensor(
 
 ---
 
-## **5. DTypes에 대한 추가 정보**
+## **2. DTypes에 대한 추가 정보**
 
 `tf.Tensor`의 데이터 유형을 검사하려면, `Tensor.dtype`속성을 사용한다.
 
@@ -103,7 +103,7 @@ tf.Tensor([2 3 4], shape=(3,), dtype=uint8)
 
 ---
 
-## **5. 브로드캐스팅(Broadcasting)**
+## **3. 브로드캐스팅(Broadcasting)**
 
 브로드캐스팅은 `NumPy`의 해당 특성에서 빌린 개념이다.
 
@@ -148,7 +148,7 @@ tf.Tensor(
  [1 2 3]], shape=(3, 3), dtype=int32)
 ```
 
-## **6. tf.convert_to_tensor**
+### **tf.convert_to_tensor**
 
 `tf.matmul` 및 `tf.reshape`와 같은 대부분의 ops는 클래스 `tf.Tensor`의 인수를 사용한다.
 
@@ -160,7 +160,7 @@ tf.Tensor(
 
 자세한 내용은 `tf.register_tensor_conversion_function`을 참조
 
-## **7. 비정형 텐서(Ragged Tensors)**
+## **4. 비정형 텐서(Ragged Tensors)**
 
 어떤 축을 따라 다양한 수의 요소를 가진 텐서를 **"비정형(ragged)"**이라고 한다. 
 
@@ -180,7 +180,7 @@ print(ragged_tensor)
 <tf.RaggedTensor [[0, 1, 2, 3], [4, 5], [6, 7, 8], [9]]>
 ```
 
-## **8. 문자열 텐서(String tensors)**
+## **5. 문자열 텐서(String tensors)**
 
 `tf.string`은 `dtype`이며, 텐서에서 문자열(가변 길이의 바이트 배열)과 같은 데이터를 나타낼 수 있다.
 
@@ -231,7 +231,7 @@ tf.Tensor([b'Gray wolf' b'Quick brown fox' b'Lazy dog'], shape=(3,), dtype=strin
 
 `tf.io` 모듈에는 이미지 디코딩 및 csv 구문 분석을 포함하여 데이터를 바이트로 변환하거나 바이트에서 변환하는 함수가 포함되어 있다.
 
-## **9. 희소 텐서(Sparse tensors)**
+## **6. 희소 텐서(Sparse tensors)**
 
 가지고 있는 데이터가 넓은 임베드 공간(wide embedding space)과 같이 데이터가 희소할 수 있다.
 
