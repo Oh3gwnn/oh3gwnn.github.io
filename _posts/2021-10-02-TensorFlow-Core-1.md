@@ -379,5 +379,4 @@ Skip the first row:
 
 여기까지 마지막으로 다축 인덱싱 알아 보았고, 내용이 많아 글을 나눠서 쓰려고 한다.
 
->>>>>>> d82a9b4345c1af124973968ff8a2100b17b994b1
 이미지 출처: (https://www.tensorflow.org/guide/tensor/)
